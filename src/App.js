@@ -32,7 +32,7 @@ function App() {
   };
 
   const dragEnd = (result, columns, setColumns) => {
-    console.log(result)
+    // console.log(result)
 
     // Return if result destination is null.
     if (!result.destination) return;
