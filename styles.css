@@ -1,0 +1,21 @@
+#root {
+  background-color: #ffffff;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+}
+
+.kanban-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.task-columns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+}
